@@ -1,0 +1,5 @@
+/*SETTING UP WEBSOCKETS, STEPS*/
+1. first require the latest version of pusher..composer require pusher/pusher-php-server:~2.0
+2. Require laravel-websockets composer require beyondcode/laravel-websockets
+3. In .env file change  BROADCAST_DRIVER=pusher from log to pusher
+4. in config/broadcasting.php add host and port

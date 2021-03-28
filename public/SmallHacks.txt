@@ -1,0 +1,2 @@
+composer dump-autoload//do this to load all files in the system
+autoload_classmap//check here if auto loaded files succeeded
